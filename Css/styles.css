@@ -1,1 +1,125 @@
+*{ margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(136, 125, 98);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 50vh;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1667964394328-78f6389e79ab?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: rgb(129, 119, 101);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+header h4 {
+    margin-left: 21rem;
+}
+
+main {
+    max-width: 1220px;
+    width: 100%;
+    background-color: white;
+    align-self: center;
+}
+
+.images-with-text {
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.images-with-text section {
+    width: 50%;
+    text-align: center;
+    height: 200px;
+    color: rgb(164, 156, 85);
+}
+
+.box-with-image {
+    background-image: url(https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D );
+    height: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+    background-position: center;
+}
+
+.box-without-image {
+    background-color: rgb(234, 232, 200);
+    height: 360px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.reflektion-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(90, 82, 66)
+    
+}
+
+.text-class {
+    width: 1064px;
+    text-align: center;
+}
+
+.linje {
+    border-radius: 5px;
+    width: 135px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif
+}
+h1 {
+    font-size: 70px;
+}
+
+h4 {
+    font-size: 17px;
+}
+
+.slut-ruta {
+    height: 373px;
+    background-color: rgb(231, 225, 192);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.signature-text {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    max-width: 1220px;
+    width: 100%;
+    align-self: center;
+}
 
