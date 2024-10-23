@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #f5f5dc;
+    background-color: #887d62;
     color: rgb(129, 119, 101);
     padding: 20px;
     text-align: center;
@@ -62,7 +62,7 @@ p, ul {
 }
 
 footer {
-    background-color: #4CAF50;
+    background-color: #887d62;
     color: white;
     text-align: center;
     padding: 10px;
